@@ -7,4 +7,4 @@ var MatchResult;
     MatchResult["HomeWin"] = "H";
     MatchResult["AwayWin"] = "A";
     MatchResult["Draw"] = "D";
-})(MatchResult = exports.MatchResult || (exports.MatchResult = {}));
+})(MatchResult || (exports.MatchResult = MatchResult = {}));
